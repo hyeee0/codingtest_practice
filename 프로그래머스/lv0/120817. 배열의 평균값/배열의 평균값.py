@@ -1,8 +1,3 @@
 def solution(numbers):
-    import numpy
-    
-    answer = 0
-    
-    answer = numpy.mean(numbers)
-    
+    answer = sum(numbers) / len(numbers)
     return answer
